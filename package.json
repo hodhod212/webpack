@@ -1,0 +1,27 @@
+{
+  "name": "proj",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "app": "npm-run-all --parallel build-watch live-server",
+"build-watch": "webpack-cli --watch",
+"live-server" : "live-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/react": "^16.8.10",
+    "@types/react-dom": "^16.8.3",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.2.1",
+    "css-loader": "^2.1.1",
+    "source-map-loader": "^0.2.4",
+    "typescript": "^3.4.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  },
+  "description": ""
+}

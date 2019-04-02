@@ -1,0 +1,10 @@
+//import * as React from "react";
+import * as ReactDOM from "react-dom";
+import React,{CSSProperties} from 'react';
+
+import { Hello } from "./components/app";
+
+ReactDOM.render(
+    <Hello compiler="TypeScript!!!" framework="React" />,
+    document.getElementById("example")
+);
